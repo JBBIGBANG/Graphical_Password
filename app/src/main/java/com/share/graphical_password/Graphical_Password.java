@@ -1,6 +1,10 @@
 package com.share.graphical_password;
 
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.os.CountDownTimer;
+import android.support.v4.graphics.drawable.RoundedBitmapDrawable;
+import android.support.v4.graphics.drawable.RoundedBitmapDrawableFactory;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -40,6 +44,7 @@ public class Graphical_Password extends AppCompatActivity implements View.OnClic
         flower1 = findViewById(R.id.flower);
         flower2 = findViewById(R.id.flo2);
         flower3 = findViewById(R.id.flo3);
+
 
 
         submit.setOnClickListener(new View.OnClickListener() {
